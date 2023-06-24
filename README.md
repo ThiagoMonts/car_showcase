@@ -1,40 +1,85 @@
-https://youtu.be/pUNSHPyVryU
+<h1 align="center"> Car Hub </h1>
+
+Projeto desenvolvido com Next.js 13, com base nos ensinamentos do vídeo - [Build and Deploy a Modern Next.js 13 Application | React, Next JS 13, TypeScript, Tailwind CSS](https://youtu.be/pUNSHPyVryU) do canal [@javascriptmastery](https://www.youtube.com/@javascriptmastery) no Youtube. 
+
+<p align="center">
+  <a href="#-tecnologias">🚀 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">💻 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instruções"> 📋 Instruções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">🔖 Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">📝 Licença</a>
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="capa" src=".github/project.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Next.JS](https://nextjs.org/)
+- [NodeJS](https://nodejs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 
-https://github.com/adrianhajdin/project_next13_car_showcase
+<br>
+
+## 💻 Projeto
+
+Car Hub é um site que tem como objetivo pesquisar, reservar e alugar carros, nele é possível filtrar os automóveis por marca, modelo, tipo de combustível e ano. O site conta com cards com imagens e diversas informações sobre os veículos disponiveis no catálago. Neste projeto foi utilizado o [Next.JS](https://nextjs.org/), framework para React, que contribui para a produção de código priorizando a eficiência de tempo. A linguagem utilizada foi o [TypeScript](https://www.typescriptlang.org/) e a estilização do projeto foi feita através do [Tailwind CSS](https://tailwindcss.com/). Neste projeto foram consumidas duas APIs, uma para obter os dados dos veículos, [Cars by API-Ninjas](https://rapidapi.com/apininjas/api/cars-by-api-ninjas), e outra para as imagens dos veículos, [Imagin Studio](https://www.imagin.studio/).
 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 📋 Instruções
 
-## Getting Started
-
-First, run the development server:
+### Clone o projeto e acesse a pasta.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+$ git clone https://github.com/ThiagoMonts/car_showcase.git
+```
+```bash
+$ cd car_showcase
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Siga o passo a passo:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Instale as dependências
+```bash
+$ cd car_showcase
+```
+```bash
+$ npm install
+```
 
-## Learn More
+<br>
 
-To learn more about Next.js, take a look at the following resources:
+Inicie o projeto
+```bash
+$ npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Crie um arquivo .env e crie suas credenciais.
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔖 Layout
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Você pode acessar o site através [DESSE LINK](https://thiagomonts-car-showcase.vercel.app/).
+
+<br>
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Desenvolvido por [Thiago Honorato](https://www.linkedin.com/in/honoratothiago/)
